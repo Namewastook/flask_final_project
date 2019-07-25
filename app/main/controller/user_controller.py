@@ -1,10 +1,12 @@
-from flask import request
+from flask import request, jsonify
 from flask_restplus import Resource
 
 from ..util.dto import UserDto
 from ..service.user_service import save_new_user, get_all_users, get_a_user
 
 from ..util.decorator import admin_token_required, token_required
+
+from ..api.continents import testingAPI
 
 
 api = UserDto.api
@@ -13,6 +15,17 @@ _user = UserDto.user
 # create a parser for handling Authorization headers
 parser = api.parser()
 parser.add_argument('Authorization', location='headers')
+
+
+@api.route('/testing')
+class testing(Resource):
+
+    def get(self):
+        response_object = {
+            'message': testingAPI,
+            'Response': 200
+        }
+        return response_object
 
 
 @api.route('/')
