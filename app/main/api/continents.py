@@ -136,7 +136,7 @@ testingAPI = [
     {"Suggestions":
         {"Brazil": ["Sugar Loaf, Cristo Redentor, Carnaval, Rio de Janeiro, Iguaçu Falls,Copacabana, Amazon Rain Forests, Brasília's Modernist Architecture, Salvador's Pelourinho, Ouro Preto, Pernambuco Beaches, Belo Horizonte, Art Museums of Sao Paulo."],
          "Bolivia": ["La Paz, Valley of the Moon, The Witches’ Market, Death Road, Lake Titicaca, Salar De Uyuni, Santa Cruz"],
-         "Columbia": ["Swim in the River of Five Colours, Climb the Stairs of El Peñol, Swing in the world’s largest hammock, Go Tubing in Palomino, Walk beside the world’s tallest palm trees, See the ‘fat Mona Lisa’, Go fishing for Piranhas,     Watch thousands of black crabs make their way to the ocean"]
+         "Columbia": ["Swim in the River of Five Colours, Climb the Stairs of El Peñol, Swing in the world’s largest hammock, Go Tubing in Palomino, Walk beside the world’s tallest palm trees, See the ‘Fat Mona Lisa’, Go fishing for Piranhas, Watch thousands of black crabs make their way to the ocean"]
          }
      },
 ]

@@ -1,7 +1,6 @@
 import os
 
-# postgres_local_base = os.environ['DATABASE_URL']
-postgres_local_base = ''
+postgres_local_base = os.environ['DATABASE_URL']
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
